@@ -126,21 +126,21 @@ body{
 }
 
 @media only screen and (max-width: 765px) {
-    .card-img-top {
-        height: 16em;
+    .show-img {
+        height: 12em;
         width: 15em !important;
     }
 }
 
 @media only screen and (max-width: 765px) {
    #map{
-    height: 300px;
+    height: 275px;
     width: 21em !important;
    }
    .row{
     display:block !important;
    }
-   .card{
+   .review{
     width: 225px !important;
    }
 }
