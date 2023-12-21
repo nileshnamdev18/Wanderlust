@@ -119,15 +119,28 @@ body{
     padding-right: 0;
 }
 
-
-
- 
-
-
-
 /* Map  */
 #map {
+    height: 400px;
+    width: 80vh; 
+}
+
+@media only screen and (max-width: 765px) {
+    .card-img-top {
+        height: 16em;
+        width: 15em !important;
+    }
+}
+
+@media only screen and (max-width: 765px) {
+   #map{
     height: 300px;
-    width: 100%;
-    
+    width: 21em !important;
+   }
+   .row{
+    display:block !important;
+   }
+   .card{
+    width: 225px !important;
+   }
 }
